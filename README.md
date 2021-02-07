@@ -4,4 +4,4 @@ Para ejecutar este programa se deben descargar todos los archivos y colocarse en
 
 el programa consta de una validacion la cual al ingresar una busqueda vacia retornara un alerte, tambien posee un boton para odernar la tabla por precios como se pidio.
 
-otro modo de acceso al codigo es mediante este link :https://landbios.github.io/ el cual proviene de github pages.
+otro modo de acceso al codigo es mediante este link :https://landbios.github.io/ el cual proviene de github pages. aunque es mas recomendable hacerlo de forma local, el link tarda en actualizarse y no posee las ultimas validaciones del codigo

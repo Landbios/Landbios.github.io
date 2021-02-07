@@ -60,6 +60,8 @@ function bringdataword(){
 
                   alert('ingrese una palabra en el buscador')
 
+                  break;
+
                 }
                              
             } 

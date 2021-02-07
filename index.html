@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/style/Styles.css">
+
+      <!-- Materialize CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!-- Materialize JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" async></script>
+
+      <script src="script/Scripts.js" async language="javascript" type="text/javascript"></script>
+              
+    <title>Buscador de Productos</title>
+</head>
+<body class="  grey darken-2 teal-text  text-accent-3">
+
+    <div class="container">
+        <div class="section">
+            <div class="row ">
+                <div class="col s6 offset-s3">
+                    <input type="text" name="searcher" id="search1" class="teal-text  text-accent-3" value="Escriba su producto">
+                </div>
+                
+                <button class="btn" id="loadbtn">Buscar</button>
+                
+                
+            </div>
+            <div class="center-align">
+                <br>
+                <button class=" tc btn" id="orderprice">Ordenadr por precio</button>
+               
+            </div>
+            <table class="centered responsive-table">
+
+
+                <thead>
+                    <tr>
+
+                        <th>Nombre</th>
+                        <th></th>
+                        <th>Descripcion</th>
+                        <th></th>
+                        <th>Precio</th>
+                    
+                    </tr>
+                </thead>
+
+                <tbody id="tablebody">
+
+
+                </tbody>
+
+
+            </table>
+            
+        </div>
+
+
+    </div>
+
+    
+</body>
+
+</html>

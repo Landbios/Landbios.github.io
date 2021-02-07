@@ -55,16 +55,10 @@ function bringdataword(){
                   break;
 
                 }
-
-             
-                console.log(normalizedword);
-                console.log(percent);
-
-                
-                
+                             
             } 
 
-            console.log('se acabo');
+          
             bringpdata();
         }
         
@@ -117,7 +111,7 @@ function bringpdata (){
           
           producttable[i].coincidance = coincidancecount;
 
-          console.log(producttable);
+         
 
           i++
 
@@ -133,7 +127,7 @@ function bringpdata (){
 
           producttable[i].coincidance = coincidancecount;
 
-          console.log(producttable);
+          
 
           i++
 
@@ -151,7 +145,7 @@ function bringpdata (){
 
       else{
 
-        console.log(producttable);
+        
         filltable();
 
       }

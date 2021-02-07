@@ -55,6 +55,12 @@ function bringdataword(){
                   break;
 
                 }
+
+                else if(normalizedword === ""){
+
+                  alert('ingrese una palabra en el buscador')
+
+                }
                              
             } 
 

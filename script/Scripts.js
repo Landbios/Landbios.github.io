@@ -112,7 +112,7 @@ function bringpdata (){
 
         let tempdesc = product.description.toLowerCase();
 
-        if(tempname.indexOf(normalizedword) !==-1 && i <= 20){
+        if(tempname.indexOf(normalizedword.toLowerCase()) !==-1 && i <= 20){
           
           coincidancecount = coincidancecount + 0.7;
           producttable.push(product);
@@ -126,7 +126,7 @@ function bringpdata (){
 
         }
 
-        else if(tempdesc.indexOf(normalizedword) !==-1 && i <= 20){
+        else if(tempdesc.indexOf(normalizedword.toLowerCase()) !==-1 && i <= 20){
 
 
           coincidancecount = coincidancecount + 0.3;
